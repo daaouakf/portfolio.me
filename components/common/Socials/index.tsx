@@ -7,7 +7,7 @@ const Socials: FC<{ className?: string }> = ({ className }) => {
   return (
     <div className={`hidden text-2xl md:flex gap-x-10 xl:gap-x-8 ${className}`}>
       <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 1 }}>
-        <Link href={"https://github.com/daaouak"} target="_blank">
+        <Link href={"https://github.com/daaouakf"} target="_blank">
           <TbBrandGithub aria-label="GitHub Profile" />
         </Link>
       </motion.div>
